@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 title="contact us">Contact Us :)</h1>
+    <h1 class="titles" title="contact us">Contact Us :)</h1>
+    <h4> Please enter the following info:</h4>
     <hr> <br/> 
-    <form>
-        <p> Please enter the following info:</p>
+    <div id="contact-us"><form>
         <label for="name"> First Name:</label>
         <input type="text" id="name"  required> <br/> <br/> 
         <label for="surname"> Last Name:</label>
@@ -28,9 +29,9 @@
         <label> <input type="radio" name="reach" value="google"> Google </label> <br/>
         <label> <input type="radio" name="reach" value="facebook"> Facebook </label> <br/>
         <label> <input type="radio" name="reach" value="friend>"> Friend </label> <br/>
-        <label> <input type="radio" name="reach" value="other"> Other </label> <br/><br/>
+        <label> <input type="radio" name="reach" value="other"> Other </label> 
         <button> Submit </button>
-    </form>
+    </form></div>
     <br/> <br/> 
     <a href="first.html">back to home page </a>
 </body>

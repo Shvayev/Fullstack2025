@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 title="opening">Some Awesome Youtube Videos</h1>
-    <table border="1" >
+    <h1 class="titles" title="opening">Some Awesome Youtube Videos</h1>
+    <form action="https://www.youtube.com/results" method="get">
+        <input name="q" placeholder="search on youtube" >  
+        <input type="submit" value="search"> <br/> <br/>
+    </form>
+    <table>
         <thead>
             <th>name</th>
             <th>link</th>
@@ -23,19 +28,18 @@
                 <td> <img src="g" alt="image"> </td>
                 <td> a lot </td>
             </tr>
+            </tr>
             <tr>
+                <td>youtube video </td>
                 <td>
-
+                    <a href="https://youtu.be/qKM-w4_-9c0?si=TVD3LdNd939YZZ_6">watch this </a> <br>
                 </td>
+                <td> <img src="g" alt="image"> </td>
+                <td> a lot </td>
             </tr>
         </tbody>
-    </table>
-    <a href="https://www.youtube.com/watch?v=7JrO3VIREIY">click here </a> <br>
-    <a href="https://youtu.be/qKM-w4_-9c0?si=TVD3LdNd939YZZ_6">watch this </a> <br>
-    <form action="https://www.youtube.com/results" method="get">
-        <input name="q" placeholder="search on youtube"> <br/>
-        <input type="submit" value="search">
-    </form>
+    </table> <br/>
+
     <a href="first.html">back to home page </a> <br>
 </body>
 </html>
