@@ -1,0 +1,52 @@
+body {
+    background-color: red;
+}
+a {
+    color: greenyellow;
+    text-align:center;
+    background-color:white;
+    border: 1px black solid ;
+    padding: 2px;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    
+}
+ button {
+    width: 50px;
+    display: block;
+    margin: auto;
+    color: greenyellow;
+    background-color: black;
+ }
+ .titles {
+    font-weight: lighter;
+    size: 32px;
+    text-align: center; 
+    color: greenyellow;
+  }
+  table {
+    padding: 100px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: greenyellow;
+
+  }
+  th, td{
+    padding: 5px;
+    border: 1px black solid; 
+  }
+
+
+  img {
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  #contact-us {
+    text-align: center;
+    color: orange;
+    border: 2px white solid;
+    background-color: greenyellow;
+    display: block;
+  }
