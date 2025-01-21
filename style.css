@@ -1,8 +1,8 @@
 body {
-    background-color: red;
+    background-color:papayawhip;
 }
 a {
-    color: greenyellow;
+    color: gold;
     text-align:center;
     background-color:white;
     border: 1px black solid ;
@@ -14,28 +14,34 @@ a {
     
 }
  button {
-    width: 50px;
+    font-family: cursive, Helvetica, sans-serif;
+    width: 100px;
     display: block;
     margin: auto;
-    color: greenyellow;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
  }
  .titles {
+    font-family: cursive, Helvetica, sans-serif;
     font-weight: lighter;
-    size: 32px;
+    size: 48px;
     text-align: center; 
-    color: greenyellow;
+    color: black;
+  
   }
   table {
+    font-family: cursive, Helvetica, sans-serif;
     padding: 100px;
     margin: auto;
     border-collapse: collapse;
-    background-color: greenyellow;
+    background-color: rgb(237, 188, 65);
 
   }
   th, td{
-    padding: 5px;
+    padding: 4px;
     border: 1px black solid; 
+    text-align: center;
   }
 
 
@@ -44,9 +50,39 @@ a {
     margin-bottom: 100px;
   }
   #contact-us {
-    text-align: center;
-    color: orange;
-    border: 2px white solid;
-    background-color: greenyellow;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    border: 2px black dotted;
+    background-color: rgb(237, 188, 65);
     display: block;
+    padding: 20px;
   }
+   #welcome-pic {
+    display: block;
+    margin: auto;
+    padding: 10px;
+   }
+   #my-cats {
+    display: block;
+    margin: auto;
+    padding: 10px;
+   }
+
+   .paragraphs {
+    font-family: cursive, Helvetica, sans-serif;
+    font-weight: lighter;
+    size: 24px;
+    text-align: center; 
+    color: black;
+   }
+
+   /* #req-contact {
+    margin: auto;
+
+   } */
+
+   #search-yt {
+    display: block;
+    margin-left: 25% auto;
+    padding: 5px;
+   }
