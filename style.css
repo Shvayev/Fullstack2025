@@ -123,8 +123,64 @@ a:hover {
     background-color: green;
    }
 
-   .lower {
-    height: 50%;
-    width: 100%;
-    background-color: yellow;
-   }
+.lower {
+  height: 50%;
+  width: 100%;
+  background-color: yellow;
+}
+
+/* grid practice 30.1.25 */  
+
+.new-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  /* grid-template-rows: 100px 20px 100px 100px 20px; */
+  grid-template-columns: 4fr 1fr 4fr 4fr 1fr;
+  gap: 10px;
+  height: 100vh;
+  background-color: blue;
+ }
+.item {
+  background-color:red;
+  padding: 10px;
+}
+.item-1 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-2 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-3 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-4 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-5 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-6 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-7 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 2 / -1;
+}
+.item-8 {
+  background-color:red;
+  padding: 10px;
+  grid-column: 1 / -1;
+}
