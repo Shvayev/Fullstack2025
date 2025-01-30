@@ -10,9 +10,14 @@ a {
     display: block;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
+a:hover {
+    color: black;
+}
+/* .back-home{
+    position: fixed;
+} */ 
  button {
     font-family: cursive, Helvetica, sans-serif;
     width: 100px;
@@ -85,4 +90,41 @@ a {
     display: block;
     margin-left: 25% auto;
     padding: 5px;
+   }
+
+   .container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+   }
+
+   .right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 44%;
+    padding: 10px;
+    background-color: blue;
+   }
+
+   .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 44%;
+    padding: 10px;
+    background-color: red;
+
+   }
+   .upper {
+    height: 50%;
+    width: 100%;
+    background-color: green;
+   }
+
+   .lower {
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
    }
