@@ -1,6 +1,4 @@
-body {
-    background-color:papayawhip;
-}
+body { background-color:papayawhip; }
 a {
     color: gold;
     text-align:center;
@@ -12,117 +10,97 @@ a {
     margin-right: 100px;
     margin-bottom: 20px;   
 }
-a:hover {
-    color: black;
-}
+a:hover { color: black; }
 /* .back-home{
     position: fixed;
 } */ 
- button {
+button {
     font-family: cursive, Helvetica, sans-serif;
     width: 100px;
     display: block;
     margin: auto;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    
- }
- .titles {
-    font-family: cursive, Helvetica, sans-serif;
-    font-weight: lighter;
-    size: 48px;
-    text-align: center; 
-    color: black;
+    background-color: rgb(255, 255, 255);   
+}
+.titles {
+  font-family: cursive, Helvetica, sans-serif;
+  font-weight: lighter;
+  size: 48px;
+  text-align: center; 
+  color: black;
   
-  }
-  table {
-    font-family: cursive, Helvetica, sans-serif;
-    padding: 100px;
-    margin: auto;
-    border-collapse: collapse;
-    background-color: rgb(237, 188, 65);
+}
+table {
+  font-family: cursive, Helvetica, sans-serif;
+  padding: 100px;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: rgb(237, 188, 65);
+}
+th, td{
+  padding: 4px;
+  border: 1px black solid; 
+  text-align: center;
+}
+#contact-us {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  border: 2px black dotted;
+  background-color: rgb(237, 188, 65);
+  display: block;
+  padding: 20px;
+}
+#welcome-pic {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+#my-cats {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+.paragraphs {
+  font-family: cursive, Helvetica, sans-serif;
+  font-weight: lighter;
+  size: 24px;
+  text-align: center; 
+  color: black;
+}
+#search-yt {
+  display: block;
+  margin-left: 25% auto;
+  padding: 5px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
 
-  }
-  th, td{
-    padding: 4px;
-    border: 1px black solid; 
-    text-align: center;
-  }
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 44%;
+  padding: 10px;
+  background-color: blue;
+}
 
-
-  img {
-    padding: 10px;
-    margin-bottom: 100px;
-  }
-  #contact-us {
-    text-align: left;
-    color: rgb(0, 0, 0);
-    border: 2px black dotted;
-    background-color: rgb(237, 188, 65);
-    display: block;
-    padding: 20px;
-  }
-   #welcome-pic {
-    display: block;
-    margin: auto;
-    padding: 10px;
-   }
-   #my-cats {
-    display: block;
-    margin: auto;
-    padding: 10px;
-   }
-
-   .paragraphs {
-    font-family: cursive, Helvetica, sans-serif;
-    font-weight: lighter;
-    size: 24px;
-    text-align: center; 
-    color: black;
-   }
-
-   /* #req-contact {
-    margin: auto;
-
-   } */
-
-   #search-yt {
-    display: block;
-    margin-left: 25% auto;
-    padding: 5px;
-   }
-
-   .container{
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-   }
-
-   .right {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 44%;
-    padding: 10px;
-    background-color: blue;
-   }
-
-   .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-    width: 44%;
-    padding: 10px;
-    background-color: red;
-
-   }
-   .upper {
-    height: 50%;
-    width: 100%;
-    background-color: green;
-   }
-
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 44%;
+  padding: 10px;
+  background-color: red;
+}
+.upper {
+  height: 50%;
+  width: 100%;
+  background-color: green;
+}
 .lower {
   height: 50%;
   width: 100%;
@@ -183,4 +161,30 @@ a:hover {
   background-color:red;
   padding: 10px;
   grid-column: 1 / -1;
+}
+   
+#title1 { margin-right: auto; }
+#moon , #sun {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+}
+#screenMode {
+  display: flex;
+  flex-direction: row;    
+  align-items: center; 
+  margin: 2px;
+}
+
+#section1:hover { color: blue;}
+.targil {
+  display: inline-flex;
+  margin-top: 10px;
+  padding: 10px;
+}
+.targil:hover {
+  background-color: blue;
+  color: white;
 }
